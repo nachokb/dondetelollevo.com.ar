@@ -33,7 +33,7 @@ main {
   grid-template-columns: 100%;
   grid-gap: 1em;
   margin: 2em auto;
-  max-width: 60em;
+  max-width: 40em;
 }
 
 a {
@@ -81,6 +81,16 @@ section#flyers {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 1em;
+  justify-items: center;
+  margin-top: 1em;
+  overflow: hidden; /* FIXME */
+}
+
+section#flyers img {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1em;
+  max-width: 14em;
   overflow: hidden; /* FIXME */
 }
 
